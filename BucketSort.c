@@ -2,6 +2,14 @@ This program works for 1000 integers only..
 Above 1000 it givves segmentation fault because it requires more memory space and while defining array we just made clear that the size is 1000.
 But it needs more than 1000 memory spaces to work on more than 1000 integers.
 
+ Bucket sort works as follows:
+
+       1. Set up an array of initially empty buckets
+       2. Go over the original array, putting each object in its bucket.
+       3. Sort each non-empty bucket.
+       4. Visit the buckets in order and put all elements back into the original array.
+
+
 
 #include<stdio.h>
 #include<stdlib.h>
